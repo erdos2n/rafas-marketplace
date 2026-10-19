@@ -1,8 +1,9 @@
 {
   "name": "adhd-communication",
-  "version": "0.1.0",
-  "description": "Skills that make Claude's responses scannable: answer first, structure over prose, no walls of text.",
+  "version": "0.2.0",
+  "description": "Skills that make Claude's responses something you'll actually read: answer first, structure over prose, no walls of text.",
   "author": {
     "name": "Rafael Carrasco"
-  }
+  },
+  "license": "MIT"
 }

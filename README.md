@@ -1,6 +1,6 @@
 # Rafa's Marketplace
 
-Claude skills built by Rafael Carrasco, organized by category. Free to use.
+Claude skills built by Rafael Carrasco, organized by category. Free to use (MIT).
 
 ## Install (Claude Code)
 
@@ -11,11 +11,19 @@ Claude skills built by Rafael Carrasco, organized by category. Free to use.
 
 Then restart Claude Code (or run `/reload-plugins`).
 
+## Update
+
+```
+/plugin marketplace update rafas-marketplace
+```
+
+Then restart Claude Code (or run `/reload-plugins`).
+
 ## Catalog
 
 | Category (plugin) | Skill | Say / type | What it does |
 |---|---|---|---|
-| `adhd-communication` | `no-walls` | `/adhd-communication:no-walls` or "no walls" | Answer first, structure over prose, no walls of text |
+| `adhd-communication` | `no-walls` | `/adhd-communication:no-walls` or "no walls" | Responses you'll actually read: answer first, do don't propose, one screen |
 
 ## Always-on (optional)
 
