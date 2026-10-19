@@ -1,0 +1,14 @@
+{
+  "name": "rafas-marketplace",
+  "description": "Rafa's Claude skills, organized by category.",
+  "owner": {
+    "name": "Rafael Carrasco"
+  },
+  "plugins": [
+    {
+      "name": "adhd-communication",
+      "source": "./plugins/adhd-communication",
+      "description": "Skills that make Claude's responses scannable: answer first, structure over prose, no walls of text."
+    }
+  ]
+}
