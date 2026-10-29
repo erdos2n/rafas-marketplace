@@ -36,7 +36,7 @@ Keep all of the above in a single commit or pull request.
 
 ## Commit messages
 
-`<plugin>: <what changed>`, for example `adhd-communication: highlight end-of-reply questions`.
+`<plugin>: <what changed>`, for example `communication-style: highlight end-of-reply questions`.
 
 ## Skill guidelines
 

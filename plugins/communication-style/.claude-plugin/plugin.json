@@ -1,0 +1,9 @@
+{
+  "name": "communication-style",
+  "version": "1.0.0",
+  "description": "Skills that shape how Claude communicates. Includes adhd-communication: answer first, structure over prose, no walls of text.",
+  "author": {
+    "name": "Rafael Carrasco"
+  },
+  "license": "MIT"
+}
