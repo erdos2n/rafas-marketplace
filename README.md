@@ -41,20 +41,6 @@ Then run `/reload-plugins` or start a new session. See [CHANGELOG.md](./CHANGELO
 | `/adhd-communication off` | Turn it off |
 | `/adhd-communication <request>` | Turn it on and answer the request |
 
-If another command already uses the short name, use the full name: `/communication-style:adhd-communication`.
-
-In the Claude app, say it in plain words: "ADHD communication", "ADHD communication once", or "ADHD communication off".
-
-Long sessions can push the skill out of context. If responses drift, invoke it again.
-
-## Always-on (optional)
-
-Skills load when Claude judges them relevant. To apply `adhd-communication` to every session, add this line to `~/.claude/CLAUDE.md`:
-
-```
-Always follow the adhd-communication skill (communication-style plugin) for every response.
-```
-
 ## Claude app (claude.ai)
 
 The Claude app doesn't install from marketplaces. Zip `plugins/communication-style/skills/adhd-communication/` and upload it under Settings → Capabilities → Skills.
