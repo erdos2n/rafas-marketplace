@@ -5,6 +5,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); each pl
 
 ## communication-style
 
+### [1.1.1] - 2026-11-18
+#### Changed
+- `adhd-communication`: trimmed SKILL.md by about 53% (6.0 KB to 2.8 KB, roughly 1,500 to 700 tokens) to cut per-use cost. Same rules; the principles table became a numbered list, and the examples were shortened. A blind A/B on 6 scenarios scored the trimmed version at parity with 1.1.0 (148 vs 149 of 150).
+
 ### [1.1.0] - 2026-11-17
 #### Changed
 - `adhd-communication`: everything that needs a reply (questions, decisions, confirmations) now goes in one `**Need from you (N)**` block as the last thing in the reply, with an item count in the label.
