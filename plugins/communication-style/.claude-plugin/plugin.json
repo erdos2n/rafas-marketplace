@@ -1,7 +1,7 @@
 {
   "name": "communication-style",
-  "version": "1.1.1",
-  "description": "Skills that shape how Claude communicates. Includes adhd-communication: answer first, structure over prose, no walls of text.",
+  "version": "1.2.0",
+  "description": "Skills that shape how Claude communicates. Includes adhd-communication (answer first, structure over prose, no walls of text) and ask-less (act on reasonable defaults instead of asking follow-up questions).",
   "author": {
     "name": "Rafael Carrasco"
   },

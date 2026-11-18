@@ -31,6 +31,7 @@ Then run `/reload-plugins` or start a new session. See [CHANGELOG.md](./CHANGELO
 | Plugin | Skill | What it does |
 |---|---|---|
 | `communication-style` | `adhd-communication` | Responses readable at a glance: answer first, structure over prose, no walls of text, questions you can't miss |
+| `communication-style` | `ask-less` | Adds rules to your CLAUDE.md so Claude acts on stated assumptions instead of asking follow-up questions, and still asks before risky actions |
 
 ## Usage
 
@@ -40,6 +41,8 @@ Then run `/reload-plugins` or start a new session. See [CHANGELOG.md](./CHANGELO
 | `/adhd-communication once` | Only the next reply |
 | `/adhd-communication off` | Turn it off |
 | `/adhd-communication <request>` | Turn it on and answer the request |
+| `/ask-less` | Add the rules to this project's CLAUDE.md |
+| `/ask-less global` | Add them to `~/.claude/CLAUDE.md` for every project |
 
 ## Claude app (claude.ai)
 

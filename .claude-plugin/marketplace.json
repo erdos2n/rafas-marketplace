@@ -8,7 +8,7 @@
     {
       "name": "communication-style",
       "source": "./plugins/communication-style",
-      "description": "Skills that shape how Claude communicates. Includes adhd-communication: answer first, structure over prose, no walls of text."
+      "description": "Skills that shape how Claude communicates. Includes adhd-communication (answer first, structure over prose, no walls of text) and ask-less (act on reasonable defaults instead of asking follow-up questions)."
     }
   ]
 }

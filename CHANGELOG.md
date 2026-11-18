@@ -5,6 +5,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); each pl
 
 ## communication-style
 
+### [1.2.0] - 2026-11-18
+#### Added
+- `ask-less`: new skill that adds "act on reasonable defaults, ask only when necessary" rules to the project's CLAUDE.md (or `~/.claude/CLAUDE.md` with `global`). It keeps asking for destructive, irreversible, or out-of-repo actions, and moves optional extras to a "Could also:" line. Conflicting "ask first" lines are removed when the file is tracked in git, and listed otherwise. It warns when the file is shared. It changes instructions only, never permission settings, and deliberately sets no question timeout.
+
 ### [1.1.1] - 2026-11-18
 #### Changed
 - `adhd-communication`: trimmed SKILL.md by about 53% (6.0 KB to 2.8 KB, roughly 1,500 to 700 tokens) to cut per-use cost. Same rules; the principles table became a numbered list, and the examples were shortened. A blind A/B on 6 scenarios scored the trimmed version at parity with 1.1.0 (148 vs 149 of 150).
